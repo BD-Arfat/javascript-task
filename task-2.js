@@ -42,6 +42,22 @@ if (number <= 59) {
   //console.log("Amar mone hoy apnar konu ek jaigai vul hocche");
 }
 
+// task 4
+
+var myMarks = 89;
+var myFriendMarks = 65;
+
+if (myMarks >= 80 && myFriendMarks >= 80) {
+  //console.log("go for a lunch. ");
+} else if (myMarks >= 80 && myFriendMarks >= 60) {
+  //console.log("good luck next time.");
+} else if (myMarks >= 80 && myFriendMarks >= 40) {
+  //console.log("keep your friends message unseen.");
+} else if (myMarks >= 80 && myFriendMarks <= 39) {
+  //console.log("block your friend");
+} else {
+  //console.log("go to home and sleep and act sad");
+}
 // task 5
 var num1 = 283;
 var num2 = 30;
@@ -72,3 +88,9 @@ if (age <= 10) {
   var totalTaka = taka + 800;
   //console.log(totalTaka);
 }
+
+var friends = ["rakiv", "shakib", "miraz", "bappy"];
+var otherMan = ["Saimon", "Arman", "Rakhin"];
+
+var totalFriends = friends.concat(otherMan);
+console.log(totalFriends);
